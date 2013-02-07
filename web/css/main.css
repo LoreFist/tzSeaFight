@@ -1,0 +1,9 @@
+
+td {
+  background: green;
+  width:35px;
+  height:35px;  
+}
+td.red{
+  background: red;
+}

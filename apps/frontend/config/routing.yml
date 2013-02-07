@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /:id
+  param: { module: generator, action: index, id: -1 }
+  requirements:
+    id: \d+
+    
+update:
+  url: /update
+  param: { module: generator, action: update }
+    
+#default_index:
+#  url:   /:module
+#  param: { action: index }
+#
+#default:
+#  url:   /:module/:action/*

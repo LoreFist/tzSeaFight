@@ -1,0 +1,4 @@
+tzMap:
+  tableName: map
+  columns:
+    pattern: { type: array(10240), notnull: true, default: '' }
